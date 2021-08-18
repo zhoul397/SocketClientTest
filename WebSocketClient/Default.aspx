@@ -33,7 +33,8 @@
                 alert(ex.message)
             }
         }
-
+		
+		//发送数据
         function sendData() {
             try{
                 ws.send("哈哈哈，服务器我要跟你说话呢")
@@ -41,7 +42,8 @@
                 alert(ex.message)
             }
         }
-
+		
+		//查看状态
         function viewStatus() {
             alert("当前WebSocket状态：" + ws.readyState);
         }
