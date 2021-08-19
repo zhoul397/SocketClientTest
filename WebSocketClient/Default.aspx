@@ -47,8 +47,6 @@
         function viewStatus() {
             alert("当前WebSocket状态：" + ws.readyState);
         }
-
-        //测试注释
     </script>
 </body>
 </html>
